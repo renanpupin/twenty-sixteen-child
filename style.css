@@ -1,0 +1,18 @@
+/*
+Theme Name: Twenty Sixteen - FalaFreud
+Description: Custom theme twenty sixteen FalaFreud.
+Author: FalaFreud
+Author URI: https://www.falafreud.com
+Template: twentysixteen
+Version: 1
+*/
+
+body{}
+
+.entry-footer{
+    display: none !important;;
+}
+
+.entry-content{
+    width: 100% !important;
+}
