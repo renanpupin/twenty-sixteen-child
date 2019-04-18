@@ -7,12 +7,23 @@ Template: twentysixteen
 Version: 1
 */
 
-body{}
-
-.entry-footer{
-    display: none !important;;
+.entry-footer .byline{
+    display: none !important;
 }
 
-.entry-content{
-    width: 100% !important;
+footer .site-info{display: none}
+
+@media only screen and (min-width: 986px) {
+    .entry-content{
+        width: 100% !important;
+    }
+    .entry-footer{
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 711px) and (max-width: 911px)  {
+    .entry-header, .post-thumbnail, .entry-content, .entry-summary, .entry-footer, .comments-area, .image-navigation, .post-navigation, .page-header, .page-content, .content-bottom-widgets {
+        margin-right: 7.6923%;
+    }
 }
